@@ -1,0 +1,97 @@
+{"intents": [
+
+    {"tag": "greeting",
+        "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola","Hi" ,"Hello", "Good day"],
+        "responses": ["Hello, I'm Anonymo. How can I help you?", 
+            "Hi It's Anonymo. Good to see you again", "Hi there. This is Anonymo, how can I help?"],
+        "context": [""]
+       },
+       {"tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice taking to you, bye", "Good bye"],
+        "responses": ["Thank you for calling us. Hope we could be of service", "Thank you for reaching out. Have a nice day", "Hope we culd help you out. Please contact us again for any issue"]
+        
+       },
+       {"tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"],
+        "context": [""]
+       },
+       {"tag": "noanswer",
+        "patterns": [],
+        "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+        "context": [""]
+       },
+       {"tag": "makecomplaint",
+        "patterns": ["I want to make a complaint", "make complaint", "complain", "I want to make a complain", "create an issue", "I want to create an issue"],
+        "responses": ["Please state your complain shortly. No personal information will be recorded unless you decide to share it with us. Please state your name only if you need us to reach back to you", 
+            "Please let us know your complain shortly. Please note that you will stay anonymous and state your name if you want us to reach back to you"]
+        
+        },
+        {"tag": "studentloans",
+            "patterns": ["I was being constantly harassed by phone while being asked to meet unrealistic payments for my student loans. Was even asked to take money out of a plan to make student loan payments which I don't even have.",
+                 "I was forced into a private student loan. The only way to see a balance is from their grossly outdated website and charge extra for any little thing. ",
+                  "The student loan provider took me out of deferment while I am still enrolled in school.",
+                   "I was recently contacted by CitizensOne Student Loans, about refinancing my student loans. I was approved for the refinancing but the interest rate that I was given is rather high, and is higher than what I'm currently paying. I feel as though I have been subject to a bait and switch",
+                    "The interest of my student loan has quadrupled my payment and put me soo far behind I am unable to repay. The debt was not explained thoroughly and the practice is predatory.", 
+                    "I am Amanda Brown. The amounts applied to principal of my student loan and interest vary widely each month. Please check", 
+                "Student loan"],
+            "responses": ["We are extremely sorry you faced such an issue with us. It will be reported immediately to the relevant department. We will get back to you if your name was provided.",
+                 "Thank you for making the complaint. We deeply apologise for the inconvenience caused. It will be reported immediately and necessary action will be taken"],
+            "context": [""]
+
+        },
+        {"tag": "creditcard",
+            "patterns": ["I was a happy credit card member for years. We almost never carry a credit card balance over, but we started to and the company has been overcharging the credit interest expense every month. Instead of charging interest on the carried balance they charged it on the entire average balance. I feel this practice is very unethical, if not illegal. We converted, not by our choice, from your company to MasterCard, so if we leave we lose all the points we acquired in previous years. Completely unfair and is why the big financials have the hated reputation they have now. Hope you folks over there can investigate.",
+                 "Without provocation, I received notice that my credit line was being decreased by nearly 100 percent. This is predatory in that it affects my utilization of credit",
+                  "I signed up for the Credit Card when they had the points bonus offer. I met the minimum spend in 3 months but they have taken back the point bonus from the credit card",
+                   "My credit card limit was decreased for no apparent reason. The credit card was overpaid accidentally and used to bring the balance back. A week later the limit was decreased.",
+                    "At the time I was cancelling the credit card I was led to believe that the points associated with that card would remain intact for me to use for the purposes that were available. However after the credit card was cancelled I found that I had forfeited all of my points.", 
+                    "The credit card company changed my credit card from one type to another without my consent, and I would lose cash back money because of that.", 
+                "I have a credit card issue"],
+            "responses": ["We are extremely sorry you faced such an issue with us. It will be reported immediately to the relevant department. We will get back to you if your name was provided.",
+                 "Thank you for making the complaint. We deeply apologise for the inconvenience caused. It will be reported immediately and necessary action will be taken"],
+            "context": [""]
+
+        },
+        {"tag": "savings",
+            "patterns": ["I didn't receive terms for savings accounts that were advertised. Please advertise them again correctly",
+                 "I am unable to open a savings account. Please check your website again",
+                  "The company closed my savings account against my wishes. They claimed my address was not a physical address and closed my savings account. But I have a physical address on file withthe company. At best, this was caused by a mistake in their physical address database. They refuse to acknowledge their error or re-open my savings account.",
+                   "I want to make a complaint about the company promotion on savings accounts as false advertising ", 
+                    "The company is engaging in fraudulent behavior where they publicly advertise a promotional offer to attract new users, make them open a new savings account and add new funds into their savings account.", 
+                "I was not receiving regular communication about my savings account from my bank."],
+            "responses": ["We are extremely sorry you faced such an issue with us. It will be reported immediately to the relevant department. We will get back to you if your name was provided.",
+                 "Thank you for making the complaint. We deeply apologise for the inconvenience caused. It will be reported immediately and necessary action will be taken"],
+            "context": [""]
+
+        },
+        {"tag": "mortgage",
+            "patterns": ["Started the refinance of home mortgage process with cash out option. got numerous revised estimates with different loan amounts and closing cost. It took more than 2 months to reach any definite closing document.",
+                 "Our Mortgage was transferred to Nationstar. Since then our payments are not posted in a timely manner or for the amount sent",
+                  "I was late on my mortgage payments and decided to sell my property, however I have a ]tax lien hold that I have been trying to clear form IRS as a lien hold on my house, NOW that I have finally fixed the issue and have a buyer that will buy my house AS IS, the morgage lender is NOT being cooperative and taking too long for the process!!",
+                   "Quicken loan and fraudulent claims to get you to refinance with them!!"],
+            "responses": ["We are extremely sorry you faced such an issue with your mortgage. It will be reported immediately to the relevant department. We will get back to you if your name was provided.",
+                 "Thank you for making the complaint. We deeply apologise for the inconvenience caused. It will be reported immediately and necessary action will be taken"],
+            "context": [""]
+        },
+        {"tag": "agent",
+            "patterns": ["Can I contact a real agent",
+                 "Please transfer me to a Customer Service Agent",
+                  "Let me contact a company agent",
+                   "Can I talk to a real human?"],
+            "responses": ["Thank you for connecting with Anonymo. You will be redirected to one of our agents",
+                 "This call will be transferred to a company agent. Please hold for a moment"],
+            "context": [""]
+        
+        },
+        {"tag": "cantunderstand",
+            "patterns": ["These are some random words", "This is the wrong company"],
+            "responses": ["Sorry, can't understand you. Could you repeat it again please?", "Please give me more information to assist you furthur"],
+            "context": [""]
+        }
+        
+       
+
+]
+
+}
